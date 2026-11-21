@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/leads",
+  // baseURL: "http://localhost:5000/api/leads",
+  baseURL: "https://leadmanager-hqrd.onrender.com/api/leads",
    withCredentials: true,
 });
 
