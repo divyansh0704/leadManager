@@ -1,0 +1,52 @@
+.leads-page {
+  padding: 30px;
+}
+
+.leads-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.leads-page-header p {
+  color: #64748b;
+  margin-top: 8px;
+}
+
+.leads-page-header button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .leads-page {
+    padding: 20px 14px;
+  }
+
+  .leads-page-header {
+    align-items: flex-start;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .leads-page-header h2 {
+    font-size: 22px;
+  }
+
+  .leads-page-header p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .leads-page-header button {
+    min-height: 42px;
+  }
+}
