@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import Sidebar from "./components/layout/sidebar.jsx";
+import Sidebar from "./components/layout/Sidebar.jsx";
 import Header from "./components/layout/Header.jsx";
 
 import Login from "./features/auth/components/Login.jsx";
