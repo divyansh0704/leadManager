@@ -60,7 +60,7 @@ leadManager/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/divyansh0704/leadManager
 cd leadManager
 ```
 
@@ -77,7 +77,6 @@ Create a `.env` file inside the backend folder:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
-NODE_ENV=development
 ```
 
 Start the backend:
